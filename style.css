@@ -2,123 +2,121 @@
  background: radial-gradient(white,grey, black);
 
 }
-h2{
-height:auto;
-max-width: 30vh;
-border:solid;
+h2.blocktext{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border:solid;
+  width:6em;
 }
-h2:hover{
-height:auto;
-max-width: 30vh;
-box-shadow: 1px 1px 12px #555;
-}
+
 a{
 text-decoration: none;
 color: black;
 }
-.navigation{
-background-image:url(images/fond2.jpg);	
-border:solid;
+IMG.displayed{
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+
 }
+
 #haut{
 max-width:10%;
 font-size:10px;
 border:dashed;
 border-width:1px;
-margin-left:90%;
+margin-left:95%;
+}
+#haut:hover{
+  max-width: 30vh;
+  width:auto;
+  height:auto;
+  border:solid;
+  border-width: 1px;
+  box-shadow: 1px 1px 22px black;
+
+}
+#fleche{
+margin-left: 40%;
+margin-right: 25%;
 }
 #P{
 border-left:solid;
-width:10%;
 border-right:solid;
+border-color: white;
+border-width:1px;
+width:10%;
 display:inline-block;
+background-color: black;
+position: sticky;
+top:1%;
+z-index: 1;
 }
 #P:hover{
-background-image:url(images/fond.jpg);
 box-shadow: 1px 1px 22px black;
+z-index: 1;
 }
-#E{
-border-right:solid;
-border-left:solid;
-width:10%;
-display:inline-block;
-}
-#E:hover{
-background-image:url(images/fond.jpg);
-box-shadow: 1px 1px 22px black;
-}
-#F{
-border-left:solid;
-border-right:solid;
-width:10%;
-display:inline-block;
-}
-#F:hover{
-background-image:url(images/fond.jpg);
-box-shadow: 1px 1px 22px black;
-}
-#Co{
-border-left:solid;
-border-right:solid;
-width:10%;
-display:inline-block;
-}
-#Co:hover{
-background-image:url(images/fond.jpg);
-box-shadow: 1px 1px 22px black;
-}
-#I{
-border-left:solid;
-border-right:solid;
-width:10%;
-display:inline-block;
-}
-#I:hover{
-background-image:url(images/fond.jpg);
-box-shadow: 1px 1px 22px black;	
-}
-#C{
-border-left:solid;
-border-right:solid;
-width:10%;
-display:inline-block;
-}
-#C:hover{
-background-image:url(images/fond.jpg);
-box-shadow: 1px 1px 22px black;
-}
+
 #L{
-border-left:solid;
-border-right:solid;
-width:10%;
-display:inline-block;
+  border-left:solid;
+  border-right:solid;
+  border-color: white;
+  border-width:1px;
+  width:10%;
+  display:inline-block;
+  float:right;
+  background-color: black;
+  position: sticky;
+  top:1%;
+  z-index: 1;
 }
 #L:hover{
-background-image:url(images/fond.jpg);
-box-shadow: 1px 1px 22px black;	
-}
-#asterix{
-border-left:solid;
-width:10%;
-border-right:solid;
-display:inline-block;
-}
-#asterix:hover{
-background-image:url(images/fond.jpg);
+
 box-shadow: 1px 1px 22px black;
+z-index: 1;
+}
+
+.lien{
+
+text-decoration: underline dotted;
+text-align: center;
+
+}
+.lien:hover{
+font-weight: bold;
+
+text-shadow:0 0 2px purple,0 0 30px purple,5px 9px 5px #333, 0 0 150px purple;color:purple;
+color:purple;
+
+}
+.blocktext{
+text-align: center;
+
+}
+.nav{
+  color:white;
+  text-align: center;
+}
+.navigation{
+text-align:center;
+position: sticky;
+top:1%;
+z-index: 1;
 }
 .box{
-max-width: 30vh;
-width:auto;
-height:auto;
+display:inline;
+text-decoration: underline dotted;
+
 }
 .box:hover{
-max-width: 30vh;
-font-weight: bold; 
+font-weight: bold;
 width:auto;
 height:auto;
 text-shadow:0 0 2px purple,0 0 30px purple,5px 9px 5px #333, 0 0 150px purple;color:purple;
 color:purple;
+
 }
 .Présentation{
 position:relative;
@@ -129,13 +127,6 @@ height:auto;
 border:solid;
 background-color:white;
 }
-.Présentation:hover{
-left:24.3%;
-width: 50%;
-background-image:url(images/fond.jpg);
-border: 4mm ridge rgba(170, 50, 220, .6);
-box-shadow: 1px 1px 22px black;
-}
 .Expérience{
 position:relative;
 margin-top:2.5%;
@@ -144,13 +135,6 @@ width:48%;
 height:auto;
 border:solid;
 background-color:white;
-}
-.Expérience:hover{
-left:24.3%;
-width: 50%;
-background-image:url(images/fond.jpg);
-border: 4mm ridge rgba(170, 50, 220, .6);
-box-shadow: 1px 1px 22px black;
 }
 .Formation{
 position:relative;
@@ -161,13 +145,6 @@ height:auto;
 border:solid;
 background-color:white;
 }
-.Formation:hover{
-left:24.3%;
-width: 50%;
-background-image:url(images/fond.jpg);
-border: 4mm ridge rgba(170, 50, 220, .6);
-box-shadow: 1px 1px 22px black;
-}
 .Compétences{
 position:relative;
 left:25.8%;
@@ -177,13 +154,6 @@ height:auto;
 border:solid;
 background-color:white;
 }
-.Compétences:hover{
-left:24.3%;
-width: 50%;
-background-image:url(images/fond.jpg);
-border: 4mm ridge rgba(170, 50, 220, .6);
-box-shadow: 1px 1px 22px black;
-}
 .informations{
 position:relative;
 left:25.8%;
@@ -192,13 +162,6 @@ width:48%;
 height:auto;
 border:solid;
 background-color:white;
-}
-.informations:hover{
-left:24.3%;
-width: 50%;
-background-image:url(images/fond.jpg);
-border: 4mm ridge rgba(170, 50, 220, .6);
-box-shadow: 1px 1px 22px black;
 }
 .Centres{
 position:relative;
@@ -210,11 +173,4 @@ height:auto;
 border:solid;
 margin-bottom:2.5%;
 background-color:white;
-}
-.Centres:hover{
-left:24.3%;
-width: 50%;
-background-image:url(images/fond.jpg);
-border: 4mm ridge rgba(170, 50, 220, .6);
-box-shadow: 1px 1px 22px black;
 }
