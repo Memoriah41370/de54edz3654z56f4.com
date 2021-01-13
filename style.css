@@ -77,7 +77,11 @@ z-index: 1;
 box-shadow: 1px 1px 22px black;
 z-index: 1;
 }
+.gris{
 
+color:grey;
+
+}
 .lien{
 
 text-decoration: underline dotted;
