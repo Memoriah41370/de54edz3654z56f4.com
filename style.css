@@ -21,6 +21,11 @@ margin-left: auto;
 margin-right: auto;
 
 }
+header{
+  position: sticky;
+  top:1%;
+  z-index: 1;
+}
 
 #haut{
 max-width:10%;
@@ -105,9 +110,6 @@ text-align: center;
 }
 .navigation{
 text-align:center;
-position: sticky;
-top:1%;
-z-index: 1;
 }
 .box{
 display:inline;
