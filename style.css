@@ -1,4 +1,5 @@
- body{
+ @media(min-width: 768px) and (max-width: 1366 px){
+   body{
  background: radial-gradient(white,grey, black);
 }
 h2.blocktext{
@@ -105,6 +106,189 @@ text-align: center;
 }
 .container{
   background-color: white;
+}
+.box{
+display:inline;
+text-decoration: underline dotted;
+}
+.box:hover{
+font-weight: bold;
+width:auto;
+height:auto;
+text-shadow:0 0 2px purple,0 0 30px purple,5px 9px 5px #333, 0 0 150px purple;color:purple;
+color:purple;
+
+}
+.Présentation{
+position:relative;
+margin-top:2.5%;
+left:25.8%;
+width:48%;
+height:auto;
+
+background-color:white;
+z-index:0;
+}
+.Expérience{
+position:relative;
+margin-top:2.5%;
+left:25.8%;
+width:48%;
+height:0 auto;
+
+background-color:white;
+z-index:0;
+}
+.Formation{
+position:relative;
+margin-top:2.5%;
+left:25.8%;
+width:48%;
+height:auto;
+
+background-color:white;
+z-index:0;
+}
+.Compétences{
+position:relative;
+left:25.8%;
+margin-top:2.5%;
+width:48%;
+height:auto;
+
+background-color:white;
+z-index:0;
+}
+.informations{
+position:relative;
+left:25.8%;
+margin-top:2.5%;
+width:48%;
+height:auto;
+
+background-color:white;
+z-index:0;
+}
+.Centres{
+position:relative;
+left:25.8%;
+margin-top:2.5%;
+width:48%;
+width:48%;
+height:auto;
+
+margin-bottom:2.5%;
+background-color:white;
+z-index:0;
+}
+}
+body{
+background: radial-gradient(white,grey, black);
+}
+h2.blocktext{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border:solid;
+width:6em;
+}
+a{
+text-decoration: none;
+color: black;
+}
+IMG.displayed{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+nav{
+width:100%;
+margin: 0 auto;
+background-color:black;
+position:sticky;
+top:0px;
+box-shadow:0px 1px 2px white;
+z-index:1;
+}
+nav ul{
+list-style-type:none;
+}
+nav ul li{
+
+float:left;
+width:25%;
+text-align:center;
+position:relative;
+}
+
+nav ul::after{
+content:"";
+display:table;
+clear:both;
+}
+
+nav a{
+
+display:block;
+text-decoration:none;
+color:black;
+border-bottom:2px solid transparent;
+padding: 10px 0px;
+color:white;
+}
+nav a:hover{
+color:gold;
+border-bottom: 2px solid gold;
+}
+.sous{
+display: none;
+box-shadow:0px 1px 2px gold;
+background-color:black;
+position:absolute;
+width:100%;
+
+
+}
+nav > ul li:hover .sous{
+display:block;
+}
+.sous li{
+float: none;
+width: 100%;
+text-align:left;
+
+}
+.sous a{
+padding: 10px;
+border-bottom: none;
+
+}
+.sous a:hover{
+border-bottom:none;
+background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+content:"▼";
+font-size:12px;
+}
+
+.gris{
+color:grey;
+}
+.lien{
+text-decoration: underline dotted;
+text-align: center;
+}
+.lien:hover{
+font-weight: bold;
+text-shadow:0 0 2px purple,0 0 30px purple,5px 9px 5px #333, 0 0 150px purple;color:purple;
+color:purple;
+}
+.blocktext{
+text-align: center;
+}
+.container{
+background-color: white;
 }
 .box{
 display:inline;
