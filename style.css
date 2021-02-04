@@ -75,6 +75,10 @@ nav > ul li:hover .sous{
   text-align:left;
 
 }
+li.gris{
+list-style: none;
+color:grey;
+}
 .sous a{
   padding: 10px;
   border-bottom: none;
@@ -89,9 +93,6 @@ nav > ul li:hover .sous{
   font-size:12px;
 }
 
-.gris{
-color:grey;
-}
 .lien{
 text-decoration: underline dotted;
 text-align: center;
@@ -272,9 +273,6 @@ content:"▼";
 font-size:12px;
 }
 
-.gris{
-color:grey;
-}
 .lien{
 text-decoration: underline dotted;
 text-align: center;
@@ -363,4 +361,8 @@ height:auto;
 margin-bottom:2.5%;
 background-color:white;
 z-index:0;
+}
+li.gris{
+list-style: none;
+color:grey;
 }
